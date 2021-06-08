@@ -1,0 +1,51 @@
+---
+title: "Designing Studies - Class 1"
+output: html_notebook
+---
+
+## Main topics about this class
+  * Definition of population and sample
+  * Scope of the study: when can we generalize to the populations
+  * Exploratory Data Analisys: tools for summary statistics and data visualization
+  
+### Variable Types:
+
+  * Numerical (quantitative): numerical values
+     * **Continuous**: take on any of an infinite number of values within a given range
+     * **Discrete**: take on one of specific set of numeric values
+  * Categorical (qualitative): take on a limited number or distinct categories
+     * **Ordinal**: levels have an inherent ordering
+     * **Regular Categorical**
+     
+Identify the types of variables in your Dataset is the first step for a powerful Statistical Analysis. 
+
+### Relationships between variables
+
+  * Two variables that show some connection with on another are called **associated (dependent)**
+  * Association can be further described as **positive** or **negative**
+  * If two variables are not associated, they are said to be **independent**
+
+### Observation studies & experiments
+  * **Observational Studies**: 
+    * Collect data in a way that does not directly interfere with how the data arise ("observe")
+    * only establish an association
+  * **Experiment**:
+    * randomly assign subjects to treatments
+    * establish causal connections
+    * **REMEMBER: Correlation does not imply causation**
+    
+### Sampling bias:
+
+  * Convenience sample: Individuals who are easily accessible are mote likely to be included in the sample
+  * Non-response: If only a (non-random) fraction of the randomly sampled people response to a survey such that the sample is no longer representative of the population
+  * Voluntary response: Occurs when the sample consists of people who volunteer to respond because they have strong opinions on the issue
+  
+### Sampling Methods
+
+  * **Simple random sampling (SRS)**: Randomly selects samples from population, where each case is equally likely to be selected
+  * **Stratified sample**: divide the population into homogeneous strata, then randomly sample from within each stratum
+  * **Cluster Sample**: divide the population into clusters, randomly sample a few clusters, then sample all observations within these clusters
+  * **Multistage sample**: divide the population in clusters, randomly sample a few clusters, then randomly sample within these clusters. 
+  
+  
+
