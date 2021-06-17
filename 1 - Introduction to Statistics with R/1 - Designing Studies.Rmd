@@ -48,4 +48,3 @@ Identify the types of variables in your Dataset is the first step for a powerful
   * **Multistage sample**: divide the population in clusters, randomly sample a few clusters, then randomly sample within these clusters. 
   
   
-
