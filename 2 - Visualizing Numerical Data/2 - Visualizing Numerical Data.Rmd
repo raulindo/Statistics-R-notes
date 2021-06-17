@@ -1,0 +1,87 @@
+---
+title: "Visualizing Numerical Data - Class 2"
+output: html_notebook
+---
+
+* Scatter plots are very good tools to visualize and explore relantionships within numerical data. As an example, income per person and life expectancy from the people of countries. 
+
+* Income per person as explanatory (x axis) and life expectancy as response (y axis).
+
+* Evaluation the relationship between two variables one must answer: 
+  * Direction: positive or negative
+  * shape: linear or curved
+  * strength: strong or weak
+  * outliers: group or individuals observations
+  
+
+# Distribution
+
+Histogram are really good plots to provide a view of the data density and the distribution of the data. Histograms are especially useful for describing the shape of the distribution. Aspects of shape:
+
+* **Skewness**: Distributions are skewed to the side of the long tail
+* **Modality**: modal, bimodal
+* **Uniform**: no apparent trend in the data
+
+The chosen bin width can alter the story the histogram is telling. The ideal bin width depends on the data that's been worked on. 
+
+## Other helpful plots to visualize distributions:
+
+* **Boxplot**: useful to have an idea about outliers and other statistical parameters. 
+* **Dotplot**
+* **Intensity map**: Useful for highlighting the spatial distribution 
+
+# Center of numerical distributions
+
+If these data come from samples, they are called sample statistics and can be used as a population estimators. 
+
+* **mean**: arithmetic average
+* **median**: midpoint of the distribution
+* **mode**: most frequent observation
+
+# Measures of spread
+
+Variability of the data. 
+
+* **range**: max - min
+* **variance**: average squared deviation from the mean
+* **standard deviation**: roughly the average deviation around the mean, and has the same units as the data; squared root of the variance
+* **Interquartile range**: range of the middle 50% of the data, distance between the first quartile (25th percentile) and third quartile (75th percentile)
+
+# Robust Statistics
+
+Robust statistics as measures on which extreme observations have little effect, ie. the presence of outliers does not interfere the value of robust statistics. Robust statistics are most useful to describe skew distributions. 
+
+* **Non robust Statistics**: mean, Standard deviation, range
+* **Robust Statistics**: Median, IQR
+
+# Transformations
+
+* A transformation is a rescaling of the data using a function
+* When data are very strongly skewed, we sometimes transform them so they are easier to model
+* goals
+  * to see the data structure differently
+  * to reduce skew assist in modeling
+  * to straighten a nonlinear relationship in a scatterplot
+
+## (natural) log transformation
+
+* Often applied when much of the data cluster near zero (relative to the larger values in the data set) and all observations are positive. 
+
+* To make the relationship between the variables more linear, and hence easier to model with simple methods.
+
+
+# Exploring categorical variables
+
+* **Frequency table** & **bar plot**: useful to show distribution and frequency (relative or count) of categorical variables
+* **contingency table**: one variable conditional to another;
+* **segmented bar plot**: useful for visualizing conditional frequency distributions;
+* **mosaic plot**: marginal distributions, breakdown of individual parts and relative individual percentages. 
+
+# Introduction to inference via simulation
+* **null hypothesis (Ho)**: represents the status quo
+* **alternative hypothesis (Ha)**: represents the research question, i.e. what we're testing for
+* conduct a hypothesis test under the assumption that the null hypothesis, either via simulation or theoretical methods
+  * if the test results suggest that the data do not provide convincing evidence for the alternative hypothesis, stick with the null hypothesis, i.e. can't reject null hypothesis
+  * it they do, then reject the null hypothesis in favor of the alternative
+
+
